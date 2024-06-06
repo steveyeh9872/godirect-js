@@ -48,7 +48,7 @@
   "description": "A JavaScript library to easily interact with [Vernier Go Direct® Sensors](https://www.vernier.com/products/sensors/go-direct-sensors).",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VernierST/godirect-js"
+    "url": "https://github.com/steveyeh9872/godirect-js"
   },
   "keywords": [
     "vernier",
@@ -62,7 +62,7 @@
     "webhid"
   ],
   "author": "Vernier Software & Technology",
-  "homepage": "https://github.com/VernierST/godirect-js",
+  "homepage": "https://github.com/steveyeh9872/godirect-js",
   "babel": {
     "plugins": [
       "@babel/plugin-transform-runtime"
