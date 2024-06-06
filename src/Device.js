@@ -25,7 +25,7 @@ export default class Device extends EventEmitter {
     this.remainingResponseLength = 0;
     this.defaultSensorsMask = 0;
     this.keepValues = true; // keep all the values during a collection
-    this.minMeasurementPeriod = 10; // minimum period in milliseconds
+    this.minMeasurementPeriod = 1; // minimum period in milliseconds
 
     this.serialNumber = '';
     this.orderCode = '';
