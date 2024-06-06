@@ -1,5 +1,5 @@
 {
-  "name": "@steveyeh9872/vernier-godirect",
+  "name": "@steveyeh/vernier-godirect",
   "version": "1.8.4",
   "unpkg": "dist/godirect.min.umd.js",
   "browser": "dist/godirect.min.esm.js",
