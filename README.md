@@ -4,6 +4,8 @@
 
 A JavaScript library to easily interact with [Vernier Go Direct® Sensors](https://www.vernier.com/products/sensors/go-direct-sensors).
 
+This is a modified version of the original @vernier/godirect package, changing minMeasurementPeriod to 1.
+
 ## Requirements
 
 This library is currently only implemented using [WebBluetooth](https://webbluetoothcg.github.io/web-bluetooth/) and [WebHID](https://wicg.github.io/webhid/) both of which have limited browser support
@@ -14,7 +16,7 @@ Partial WebHID functionality is available in Chrome 78 behind a flag on desktop 
 
 Use the unpkg module version of library in your HTML document:
 ```html
-<script src="https://unpkg.com/@vernier/godirect/dist/godirect.min.umd.js"></script>
+<script src="https://unpkg.com/@steveyeh/vernier-godirect/dist/godirect.min.umd.js"></script>
 ```
 
 Use the library as a JavaScript module:
@@ -22,12 +24,12 @@ Use the library as a JavaScript module:
 1. Install the module via npm:
 
 ```
-$ npm i @vernier/godirect
+$ npm i @steveyeh/vernier-godirect
 ```
 
 2. Import the module into your JavaScript file:
 ```javascript
-import godirect from './node_modules/@vernier/godirect/dist/godirect.min.esm.js';
+import godirect from './node_modules/@steveyeh/vernier-godirect/dist/godirect.min.esm.js';
 ```
 
 ## Example Usage

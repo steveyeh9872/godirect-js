@@ -1,6 +1,6 @@
 {
   "name": "@steveyeh/vernier-godirect",
-  "version": "1.8.5",
+  "version": "1.8.6",
   "unpkg": "dist/godirect.min.umd.js",
   "browser": "dist/godirect.min.esm.js",
   "main": "src/godirect.js",
