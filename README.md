@@ -4,7 +4,7 @@
 
 A JavaScript library to easily interact with [Vernier Go Direct® Sensors](https://www.vernier.com/products/sensors/go-direct-sensors).
 
-This is a modified version of the original @vernier/godirect package, changing minMeasurementPeriod to 1.
+### This is a modified version of the original @vernier/godirect package, changing minMeasurementPeriod to 1.
 
 ## Requirements
 
